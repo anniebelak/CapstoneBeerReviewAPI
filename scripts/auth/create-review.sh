@@ -6,6 +6,7 @@ curl --include --request POST "http://localhost:4741/reviews"\
  --data '{
    "review": {
      "comment": "'"${COMMENT}"'",
-     "rating": "'"${RATING}"'"
+     "rating": "'"${RATING}"'",
+     "beer_id": "'"${BEER_ID}"'"
    }
  }'

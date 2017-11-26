@@ -6,6 +6,7 @@ curl --include --request PATCH "http://localhost:4741/reviews/${ID}" \
  --data '{
    "review": {
      "comment": "'"${COMMENT}"'",
-     "rating": "'"${RATING}"'"
+     "rating": "'"${RATING}"'",
+     "location_id": "'"${LOCATION_ID}"'"
    }
  }'
