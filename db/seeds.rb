@@ -19,4 +19,9 @@
 #                               { name: 'Earth Eagal',
 #                                 address: '165 High Street Portsmouth NH 03801' }
 #                             ])
-beers= Beers.create([])
+beers = Beer.create([
+                        {name: 'State Capital Milk Stout',
+                      beer_type: 'stout',
+                      description: 'This beer is a sweeter style of stout,creamy minimal hops',
+                      location_id: 7}
+                      ])
