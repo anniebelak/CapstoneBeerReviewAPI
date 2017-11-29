@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  resources :beers, except: %i[new edit]
-  resources :locations, except: %i[new edit]
+  resources :beers, only: %i[index show]
+  resources :locations, only: %i[index show]
   resources :reviews, except: %i[new edit]
   resources :examples, except: %i[new edit]
   post '/sign-up' => 'users#signup'
