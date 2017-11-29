@@ -12,7 +12,7 @@ class ReviewsController < ProtectedController
 
   # GET /reviews/1
   def show
-    render json: @review.find(params[:id])
+    render json: @review
   end
 
   # POST /reviews
