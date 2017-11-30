@@ -11,8 +11,8 @@
 # Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Location.create({ name: 'StoneFace',
-                address: '436 Shattuck Way Newington NH 03801' })
+Location.create({ name: 'Earth Eagal',
+                address: '165 High Street Portsmouth NH 03801' })
 #                               { name: 'StoneFace',
 #                                 address: '436 Shattuck Way Newington NH 03801' },
 #                               { name: 'Earth Eagal',
