@@ -30,21 +30,32 @@ Technologies Used
 -Curl Scripts for testing
 -GitHub pages
 
-
 Back-end API Controller and Methods
 
 Verb	URI Pattern	Controller#Action
+
 POST	/sign-up	users#signup
+
 POST	/sign-in	users#signin
+
 DELETE	/sign-out/:id	users#signout
+
 PATCH	/change-password/:id	users#changepw
+
 GET	/reviews	reviews#index
+
 GET	/reviews/:id	reviews#show
+
 POST	/reviews	reviews#create
+
 PATCH	/reviews/:id	reviews#update
+
 DELETE	/reviews/:id	reviews#destroy
+
 GET	/beers	beers#index
+
 GET	/locations/ locations#index
+
 GET	/beers/:id	beers#show
 
 Project Links
