@@ -1,4 +1,4 @@
-WHats HOPs ining
+                                          WHats HOPs ining
 
 WHaTs HOPs ining is designed for the beer connoiseur, it allows a user to review different beers from local
 breweries so that when visiting your with friends or family you can remember and share what beers you have had and
