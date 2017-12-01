@@ -31,29 +31,44 @@ enable a breweries and beers to be added to the database for users to review.
 Technologies Used
 
 -Ruby on Rails
+
 -Heroku
+
 -Curl Scripts for testing
+
 -GitHub pages
--curl scripts to test 
+
 
 Back-end API Controller and Methods
 
-
-
 Verb	URI Pattern	Controller#Action
+
 POST	/sign-up	users#signup
+
 POST	/sign-in	users#signin
+
 PATCH	/change-password/:id	users#changepw
+
 DELETE	/sign-out/:id	users#signout
+
 GET	/reviews	reviews#index
+
 GET	/reviews/:id	reviews#show
+
 POST	/reviews	reviews#create
+
 PATCH	/reviews/:id	reviews#update
+
 DELETE	/reviews/:id	reviews#destroy
+
 GET	/beers	beers#index
+
 GET	/locations/ locations#index
+
 GET	/beers/:id	beers#show
+
 GET	/reviews	reviews#index
+
 GET	/reviews/:id	reviews#show
 
 Project Links
