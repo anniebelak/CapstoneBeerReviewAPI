@@ -12,10 +12,15 @@ Users, Reviews, Beers and Locations. The relationship for these tables is outlin
 below:
 
 1)Users has many reviews
+
 2)Locations has many beers
+
 3)Beer belongs to location
+
 4)Beer has many  reviews
+
 5)Review  belongs to user
+
 6)Review belongs to  beer
 
 
@@ -29,42 +34,34 @@ Technologies Used
 -Heroku
 -Curl Scripts for testing
 -GitHub pages
+-curl scripts to test 
 
 Back-end API Controller and Methods
 
+
+
 Verb	URI Pattern	Controller#Action
-
 POST	/sign-up	users#signup
-
 POST	/sign-in	users#signin
-
-DELETE	/sign-out/:id	users#signout
-
 PATCH	/change-password/:id	users#changepw
-
+DELETE	/sign-out/:id	users#signout
 GET	/reviews	reviews#index
-
 GET	/reviews/:id	reviews#show
-
 POST	/reviews	reviews#create
-
 PATCH	/reviews/:id	reviews#update
-
 DELETE	/reviews/:id	reviews#destroy
-
 GET	/beers	beers#index
-
 GET	/locations/ locations#index
-
 GET	/beers/:id	beers#show
+GET	/reviews	reviews#index
+GET	/reviews/:id	reviews#show
 
 Project Links
 [HEROKU]https://peaceful-badlands-52624.herokuapp.com
+
 [github]https://anniebelak.github.io/CapstoneBeerReviewFrontEnd/
 
 Front End Repository
 [FRONTEND-REPO]https://github.com/anniebelak/CapstoneBeerReviewFrontEnd
-
-
 ERD
 [ERD]https://imgur.com/LOfTr65
